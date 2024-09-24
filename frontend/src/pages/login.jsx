@@ -1,11 +1,11 @@
 import React from 'react'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 const Login = () => {
   return (
-    <>
+    <div className='Container'>
       <div className="container mx-auto px-4 py-12 flex flex-col items-center justify-center h-screen container1">
         <div className="w-full max-w-md bg-white rounded shadow-md p-6 md:flex md:flex-col md:justify-center md:items-center">
           <a href="#" className="text-3xl font-bold text-center mb-6 block">Logo</a>
-          <p className="text-lg text-center mb-4">Welcome.</p>
           <ul className="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
             <li className="nav-item" role="presentation">
               <a
@@ -204,7 +204,7 @@ const Login = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
