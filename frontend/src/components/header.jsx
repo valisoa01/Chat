@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 import "../styles/header.css"
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+=======
+import React from 'react'
+>>>>>>> minnam
 
+function header() {
   return (
+<<<<<<< HEAD
     <header className="header">
       <div className="header__logo">
       </div>
@@ -37,5 +43,14 @@ const Header = () => {
     </header>
   );
 };
+=======
+    <div>
+      <head>
+        <title>Navbar</title>
+        </head>
+    </div>
+  )
+}
+>>>>>>> minnam
 
-export default Header;
+export default header
